@@ -1,10 +1,7 @@
 import random
-from faker import Faker
 import pandas as pd
 
-fake = Faker()
-
-def gerar_dados_corrida(num_voltas=10):
+def gerar_dados_corrida(num_voltas):
     dados_corrida = []
     for volta in range(1, num_voltas + 1):
         dados_corrida.append({
