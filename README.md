@@ -87,7 +87,8 @@ Como o tempo médio de um pit stop impacta a posição final do carro na corrida
 ---
 Questão 3: 
 
-<img width="840" alt="Captura de Tela 2025-03-25 às 20 33 21" src="https://github.com/user-attachments/assets/f711eb5a-39c9-450a-bc63-e93c5907d739" />
+![Captura de Tela 2025-03-26 às 14 07 45](https://github.com/user-attachments/assets/77fffd8d-728a-4333-81d4-5a04ae1d0344)
+
 
 Com base nos dados gerados para as atividades de Entendimento e Preparação de Dados no processo CRISP-DM para a análise de pit stops na Fórmula 1, podemos seguir as diretrizes das atividades dessa metodologia de forma prática. Vamos abordar cada uma das fases:
 
