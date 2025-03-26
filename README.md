@@ -19,13 +19,13 @@ seguida apresente exemplos relacionados às atividades de Entendimento e Prepara
 
 Questão 1: A Mineração de Dados (MD) é fundamental na análise de grandes volumes de informações, permitindo identificar padrões relevantes que auxiliam significativamente na tomada de decisões. Um exemplo prático da aplicação dessas técnicas é a utilização da base de dados Breast Cancer Wisconsin (Diagnostic), composta por atributos extraídos de imagens digitalizadas de células obtidas em massas mamárias. Utilizando essa base como exemplo, podemos aplicar diversas abordagens da mineração de dados para diferentes objetivos: 
 
-- Classificação: Essa técnica é particularmente útil para prever se um tumor é maligno ou benigno, considerando atributos específicos como textura, compactação e raio das células. Algoritmos populares nessa tarefa incluem Árvores de Decisão e Máquinas de Vetores de Suporte (SVM). 
+- Classificação: Essa técnica é particularmente útil para prever se um tumor é maligno ou benigno, considerando atributos específicos como textura, compactação e raio das células. Algoritmos de IA amplamente utilizados para essas tarefas são os Multi Layer Perceptron e Knn's.
 
-- Regressão: Embora a variável-alvo seja geralmente categórica, é possível aplicar técnicas de regressão para estimar a probabilidade de malignidade dos tumores, com base nas características contínuas disponíveis. Isso facilita a compreensão quantitativa do risco associado a determinados perfis celulares. 
+- Regressão: Embora a variável-alvo seja geralmente categórica, é possível aplicar técnicas de regressão para estimar a probabilidade de malignidade dos tumores, com base nas características disponíveis. Isso facilita a compreensão quantitativa do risco associado a determinados perfis celulares. Por exemplo, com base nas features A, B e C o risco da pessoa x desenvolver cancer de mama é y%. 
 
-- Clusterização: Permite agrupar pacientes com padrões celulares semelhantes, sem depender dos diagnósticos previamente rotulados. Essa abordagem é valiosa para identificar subgrupos específicos de risco, utilizando técnicas como o K-means ou o DBSCAN, que agrupam naturalmente indivíduos com características similares. 
+- Clusterização: Permite agrupar pacientes com padrões celulares semelhantes, sem depender dos diagnósticos previamente rotulados. Essa abordagem é valiosa para identificar subgrupos específicos de risco, utilizando técnicas como o K-means  (baseado em distância) ou o DBSCAN (baseado em densidade). 
 
-- Regras de Associação: Técnicas de associação podem identificar padrões frequentes e relevantes entre as características celulares. Por exemplo, é possível descobrir regras indicando que, quando atributos como textura e simetria ultrapassam determinados limites, há maior probabilidade de malignidade, proporcionando insights clínicos úteis para diagnóstico precoce. 
+- Regras de Associação: Técnicas de associação podem identificar padrões frequentes e relevantes entre as características celulares. Por exemplo, é possível descobrir regras indicando que, quando atributos como textura e simetria ultrapassam determinados limites, há uma maior probabilidade do tumor ser maligno, proporcionando insights clínicos úteis para diagnóstico precoce. 
 
 - Detecção de Anomalias: Essa abordagem identifica exames cujas características celulares fogem significativamente dos padrões predominantes na base de dados. Casos assim podem indicar erros no diagnóstico inicial ou revelar tumores raros e atípicos, destacando-os para investigação mais detalhada. 
 
